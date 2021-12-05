@@ -1,4 +1,4 @@
-# Iteration 1
+# Iteration 1 : Establishing an Overall System Structure
 This iteration showcases the results of the activites that are performed for the first iteration of the add process. The goal of this iteration is to establish an overall system structure.
 
 To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pdf)
