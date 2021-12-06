@@ -1,8 +1,8 @@
 # Group25SofeDesign
 Group 25 Software Design Assignment 
-Banujan Sutheswaran - 100750620  
-Nathan Bojczuk - 100749012  
-Cyrus Lee - 100748627
+Banujan Sutheswaran - 100750620   
+Nathan Bojczuk - 100749012    
+Cyrus Lee - 100748627  
 Yehchan Park - 100754068  
 ## Table of Contents
 * [Deliverable 1](https://github.com/YehchanPark/Group25FinalProject/blob/main/Deliverable%201/Deliverable%201%20%E2%80%93%20Project%20proposal.pdf)
