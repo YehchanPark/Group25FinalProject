@@ -79,7 +79,7 @@ Sequence diagram for use case UC-1 (Login System)
 
 Initial methods for the interfaces of the interacting elements can be identified:
 
-![Interface Element Chart](assets/InterfaceElements.jpg)
+![Interface Element Chart](assets/InterfaceElements.JPG)
 
 
 **Step 7: Perform Analysis of Current Design and Review Iteration**
