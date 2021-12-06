@@ -4,7 +4,7 @@ This iteration showcases the results of the activites that are performed for the
 To access to full pdf click [here](Iteration%202%20Final%20Project%20SOFE3650.pdf)
 
 
-**Step 2: Establish Iteration Goal by Selecting Drivers**
+## **Step 2: Establish Iteration Goal by Selecting Drivers**
 
 The goal during this iteration is to address the architectural concern of identifying structures to support primary functionality. This is not only useful for understanding how functionality is supported, but also for addressing CRN-3 (Allocate work to members of the development team.)
 
