@@ -56,9 +56,7 @@ Initial Domain Model:
 
 
 Module that support the primary use cases:
-
-
-
+![image](https://user-images.githubusercontent.com/80484349/144771384-a6b5e98a-5562-49b4-8dfc-ae8a7ab3263d.png)
 
 
 
@@ -95,11 +93,10 @@ Module that support the primary use cases:
 
 
 Sequence diagram for use case UC-1 (Login System)
-
+![Sequence diagram](assets/Sequence%20diagram.png)
 
 
 Initial methods for the interfaces of the interacting elements can be identified:
-
 
 |**Method Name**|**Description**|
 | :- | :- |
