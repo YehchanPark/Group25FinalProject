@@ -14,16 +14,13 @@ In this iteration the architecture considers:
 - UC-4: Create Reservations
 - UC-6: Show Information
 - UC-7: Admin Access
-- CRN-3: 
+- CRN-3: Allocate work to members
 
-**Step 3: Choose One or More Elements of the System to Refine**
+## **Step 3: Choose One or More Elements of the System to Refine**
 
 The elements that will be refined in this iteration are the modules located in the layers defined by the two reference architectures from the first iteration. In general, the support of functionality in this system requires the collaboration of components associated with modules that are located in the different layers.  This includes the elements browser layer, business layer, and data layer.
 
-**Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
-
-
-
+## **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
 |**Design Decisions and Location**|**Rationale and Assumptions**|
 | :- | :- |
@@ -32,11 +29,7 @@ The elements that will be refined in this iteration are the modules located in t
 |Decompose **Domain Objects** into general and specialized **Components**|Each domain object will be fully functional as a set, but can be decomposed into smaller components. For example, the data layer can be decomposed into an access module that is connected with the Theatre Database.|
 |Use JQuery Framework|<p>JQuery is a popular framework/library to support javascript development . A library is required in order to use Ajax in the program, and it was the library that integrated the most with our program.</p><p></p><p>An alternative that was considered for development was React. JQuery was selected as it has better compatibility, and that React is too complex for the program we are trying to create. </p>|
 
-
-
-
-
-**Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
+## **Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 
 
 |**Design Decisions and Location**|**Rationale** |
@@ -47,19 +40,15 @@ The elements that will be refined in this iteration are the modules located in t
 |Connect components using JQuery Framework|JQuery simplifies the relationship between Javascript code and HTML elements, supporting various component aspects with a wide range of plugins. |
 
 
-**Step 6: Sketch Views and Record Design Decisions**
+## **Step 6: Sketch Views and Record Design Decisions**
 
 Initial Domain Model:  
 
 ![domain](assets/domain.PNG)
 
 
-
-
-
 Module that support the primary use cases:    
 ![module](assets/module.PNG)  
-
 
 
 |**Element**|**Responsibility**|
@@ -84,7 +73,7 @@ Initial methods for the interfaces of the interacting elements can be identified
 ![Interface Element Chart](assets/InterfaceElements.JPG)
 
 
-**Step 7: Perform Analysis of Current Design and Review Iteration**
+## **Step 7: Perform Analysis of Current Design and Review Iteration**
 
 
 |**Not Addressed**|**Partially Addressed**|**Completely Addressed**|**Design Decisions** |
