@@ -23,6 +23,8 @@ The elements that will be refined in this iteration are the modules located in t
 **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
 
+
+
 |**Design Decisions and Location**|**Rationale and Assumptions**|
 |Create a **Domain Model** for the Application|The initial domain model is necessary before starting decomposition, as it is the conceptual model that incorporates both behaviour and data in our system.  A domain model will guide us to create and understand the entity relationships within our system, and will prevent an ad hoc architecture that is difficult to work with. |
 |Identify **Domain Objects** that map to functional requirements |We can convert the client/server side layers from our system into individual domain objects, in which each object can be expanded on.  This process eliminates the risk of not considering requirements. |
@@ -77,7 +79,7 @@ Sequence diagram for use case UC-1 (Login System)
 
 Initial methods for the interfaces of the interacting elements can be identified:
 
-![Interface Element Chart](assets/InterfaceElements)
+![Interface Element Chart](assets/InterfaceElements.jpg)
 
 
 **Step 7: Perform Analysis of Current Design and Review Iteration**
