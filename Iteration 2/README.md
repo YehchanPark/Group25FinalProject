@@ -49,14 +49,14 @@ The elements that will be refined in this iteration are the modules located in t
 
 Initial Domain Model:  
 
-![domain](assets/domain.png)
+![domain](assets/domain.PNG)
 
 
 
 
 
 Module that support the primary use cases:  
-![module](assets/module.png)
+![module](assets/module.PNG)
 
 
 
