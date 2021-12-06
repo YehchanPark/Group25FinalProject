@@ -119,7 +119,7 @@ In the initial iteration, interfaces are not yet defined.
 **Step 6: Sketch Views and Record Design Decisions**
 
 The following table summarizes the information that is captured by the sketch : 
-
+![view](assets/sketch.PNG)
 |**Element**|**Responsibility**|
 | :- | :- |
 |Browser Layer|This layer contains the canvas for user interaction and use case control flow.  Will use HTML and CSS to implement. |
@@ -138,7 +138,7 @@ The following table summarizes the information that is captured by the sketch :
 
 
 Deployment Diagram:
-
+![Deploment Diagram](assets/deployment%20diagram.PNG)
 The responsibilities of the elements are:
 
 
