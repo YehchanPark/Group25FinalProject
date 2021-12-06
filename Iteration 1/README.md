@@ -39,11 +39,7 @@ To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pd
 **Step 2: Establish Iteration Goal by Selecting Drivers**
 
 This is the first iteration in the design of a greenfield system, so the iteration goal
-
-is to achieve the first architectural concern of establishing an overall system
-
-structure .
-
+is to achieve the first architectural concern of establishing an overall system structure .
 Although this iteration is driven by a general architectural concern, the architect must keep in mind all of the drivers that may influence the general structure of the system. In particular, the architect must be mindful of the following:
 
 QA-1: Security
