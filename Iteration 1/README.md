@@ -96,7 +96,7 @@ In the initial iteration, interfaces are not yet defined.
 
 
 **Step 6: Sketch Views and Record Design Decisions**  
-![view](assets/sketch.PNG)
+![view](assets/sketch.PNG)  
 The following table summarizes the information that is captured by the sketch : 
 |**Element**|**Responsibility**|
 | :- | :- |
@@ -116,7 +116,7 @@ The following table summarizes the information that is captured by the sketch :
 
 
 Deployment Diagram:  
-![Deploment Diagram](assets/deployment%20diagram.PNG)
+![Deploment Diagram](assets/deployment%20diagram.PNG)  
 The responsibilities of the elements are:
 
 
