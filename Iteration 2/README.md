@@ -26,6 +26,7 @@ The elements that will be refined in this iteration are the modules located in t
 
 
 |**Design Decisions and Location**|**Rationale and Assumptions**|
+| :- | :- |
 |Create a **Domain Model** for the Application|The initial domain model is necessary before starting decomposition, as it is the conceptual model that incorporates both behaviour and data in our system.  A domain model will guide us to create and understand the entity relationships within our system, and will prevent an ad hoc architecture that is difficult to work with. |
 |Identify **Domain Objects** that map to functional requirements |We can convert the client/server side layers from our system into individual domain objects, in which each object can be expanded on.  This process eliminates the risk of not considering requirements. |
 |Decompose **Domain Objects** into general and specialized **Components**|Each domain object will be fully functional as a set, but can be decomposed into smaller components. For example, the data layer can be decomposed into an access module that is connected with the Theatre Database.|
@@ -62,6 +63,7 @@ Module that support the primary use cases:
 
 
 |**Element**|**Responsibility**|
+| :- | :- |
 |NetworkListenView|This component is in charge of processing the user interface components from the reference architecture.  Displays the network events and updates accordingly when called. |
 |NetworkListenController|Provides relevant information to the browser layer and displays the current event.|
 |EventManager|Communicates with the server-side logic|
@@ -86,6 +88,7 @@ Initial methods for the interfaces of the interacting elements can be identified
 
 
 |**Not Addressed**|**Partially Addressed**|**Completely Addressed**|**Design Decisions** |
+| :- | :- | :- | :- |
 |||UC-1|Modules across the layers and preliminary interfaces to support this use case have been identified. |
 |||UC-4||
 |||UC-6||
