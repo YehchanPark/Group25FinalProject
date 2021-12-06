@@ -95,28 +95,7 @@ In the initial iteration, interfaces are not yet defined.
 |Remove local data sources in the Rich Internet Application|No need to store data locally as information will be stored in the Theatre Database.|
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Step 6: Sketch Views and Record Design Decisions**
+**Step 6: Sketch Views and Record Design Decisions**  
 ![view](assets/sketch.PNG)
 The following table summarizes the information that is captured by the sketch : 
 |**Element**|**Responsibility**|
@@ -136,7 +115,7 @@ The following table summarizes the information that is captured by the sketch :
 
 
 
-Deployment Diagram:
+Deployment Diagram:  
 ![Deploment Diagram](assets/deployment%20diagram.PNG)
 The responsibilities of the elements are:
 
