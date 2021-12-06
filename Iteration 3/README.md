@@ -4,18 +4,18 @@ This iteration showcases the results of the activites that are performed for the
 To access to full pdf click [here](Iteration%203%20Final%20Project%20SOFE3650.pdf)
 
 
-**Step 2: Establish Iteration Goal by Selecting Drivers**
+## **Step 2: Establish Iteration Goal by Selecting Drivers**
 
 The goal during this iteration is to focus on the QA-4 quality attribute scenario: The existing database specified in CON-4 should be able to retrieve and update data to and from the client side within 5 seconds. The database system will schedule a restart once a day for 1 minute to ensure its data integrity.
 
-**Step 3: Choose One or More Elements of the System to Refine**
+## **Step 3: Choose One or More Elements of the System to Refine**
 
 For this scenario, the elements that we will refine are the physical nodes that were identified during the first iteration:
 
 - Application server 
 - Database server
 
-**Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
+## **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
 
 |**Design Decision and Location**|**Rationale and Assumptions** |
@@ -23,7 +23,7 @@ For this scenario, the elements that we will refine are the physical nodes that 
 |Establish performance tactics to manage sample rate, limit event response, and prioritize events.|By reducing the sampling frequency between the Theatre database and the application database, the demand can be reduced resulting in faster response times.  Through creating a priority stream that ranks events based on importance and frequency, event processes can be predicted and scaled accordingly.  This design decision completes the project's quality attribute 4.|
 |Introduce Database Backup|The addition of this function will prevent real-time database failure, as there will always be another backed up database.  This functionality will support constraint 6 that was defined in the previous iterations. |
 
-**Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
+## **Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 
 The instantiation design decisions are summarized in the table:
 
@@ -34,7 +34,7 @@ The instantiation design decisions are summarized in the table:
 
 
 
-**Step 6: Sketch Views and Record Design Decisions**
+## **Step 6: Sketch Views and Record Design Decisions**
 Updated Deployment Diagram:  
 
 ![deployment](assets/updated%20Deployment%20Diagram.PNG)
@@ -54,7 +54,7 @@ UML Sequence Diagram Illustrating backup functions:
 ![Sequence Diagram](assets/sequence%20diagram.PNG)
 
 
-**Step 7: Perform Analysis of Current Design and Review Iteration**
+## **Step 7: Perform Analysis of Current Design and Review Iteration**
 
 
 |**Not Addressed**|**Partially Addressed**|**Completely Addressed**|**Design Decisions** |
