@@ -1,5 +1,5 @@
-# Group25SofeDesign
-Group 25 Software Design Assignment 
+# Group 25 SofeDesign
+Group 25 Software Design Project 
 Banujan Sutheswaran - 100750620   
 Nathan Bojczuk - 100749012    
 Cyrus Lee - 100748627  
