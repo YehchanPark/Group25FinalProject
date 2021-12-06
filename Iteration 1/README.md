@@ -6,35 +6,7 @@ To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pd
 ## **ADD Step 1: Review inputs**
 
 
-|**Category**|**Details**|
-| :- | :- |
-|Design Purpose|<p>This is a greenfield system from a mature domain. The purpose</p><p>is to create a sufficient design to support the</p><p>construction of the system. </p>|
-|Primary Functional Requirements|<p>From the use cases presented in Deliverable 2, the primary ones were determined to be:</p><p></p><p>- UC-1: Because it directly supports the core business</p><p>- UC-4: Because it directly supports the core business </p><p>- UC-6: Because it directly supports the core business</p><p>- UC-7 Because it grants the ability to troubleshoot and modify in real time</p>|
-|Quality Attribute Scenarios|<p>The scenarios were described in Deliverable 2. They have now</p><p>been prioritized as follows:</p>|
-
-|**Scenario ID**|**Importance to Customers**|**Difficulty of Implementation according to architect**|
-| :- | :- | :- |
-|QA-1|High|Medium|
-|QA-2|Medium|Medium|
-|QA-3|Low|Low|
-|QA-4|High|Medium|
-|QA-5|Medium|Medium|
-|QA-6|Low|Low|
-|QA-7|High|High|
-|QA-8|High|High|
-|QA-9|Medium|Low|
-
-||From this list quality attributes 1, 4, 7, and 8 are selected as drivers.|
-| :- | :- |
-|Constraints|All the constraints discussed in the second deliverable are included as drivers.|
-|Architectural Concerns||
-
-|ID|Concern|
-| :- | :- |
-|CRN-1|Establishing an overall initial system structure.|
-|CRN-2|Leverage the team's knowledge about Web Programming, including HTML, CSS, Javascript, PHP, SQL and AJAX . |
-|CRN-3|Allocate work to members of the development team.|
-
+![Step 1](assets/step1.png)
 
 ## **Step 2: Establish Iteration Goal by Selecting Drivers**
 
@@ -42,21 +14,24 @@ This is the first iteration in the design of a greenfield system, so the iterati
 is to achieve the first architectural concern of establishing an overall system structure .
 Although this iteration is driven by a general architectural concern, the architect must keep in mind all of the drivers that may influence the general structure of the system. In particular, the architect must be mindful of the following:
 
-QA-1: Security
+[QA-1: Security](/assets/qualityAttributes.JPG)  
 
-QA-4: Performance, Availability
+[QA-4: Performance, Availability](/assets/qualityAttributes.JPG)  
 
-QA-7: Security
+[QA-7: Security](/assets/qualityAttributes.JPG)  
 
-QA-8: Security
+[QA-8: Security](/assets/qualityAttributes.JPG)
 
-CON-2: User workstations use the following operating systems: Windows and Linux.
+[CON-2: User workstations use the following operating systems: Windows and Linux.](/assets/systemConstraints.JPG)
 
-CON-4: Must use the theatre's existing databases.
+[CON-4: Must use the theatre's existing databases.](/assets/systemConstraints.JPG)
 
-CON-5: The system must be accessed through a web browser such as Chrome or Firefox while on different operating systems.
+[CON-5: The system must be accessed through a web browser such as Chrome or Firefox while on different operating systems.](/assets/systemConstraints.JPG)
 
-CRN-2: Leverage the team's knowledge about Web technologies, including HTML, CSS, Javascript, PHP, SQL and AJAX . 
+[CRN-2: Leverage the team's knowledge about Web technologies, including HTML, CSS, Javascript, PHP, SQL and AJAX.](/assets/crn.JPG)  
+
+
+
 
 Context Diagram for the theatre reservation system:  
 ![Context Diagram](assets/context%20diagram.PNG)
@@ -68,22 +43,7 @@ Our system is a greenfield system, so the element to refine is the entire theatr
 
 ## **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
-|**Design decisions and Location**|**Rationale**|
-| :- | :- |
-|Theatre Reservation System will be structured using the **Rich Internet Application** reference architecture|The Rich Internet Application reference architecture supports the development of applications that utilize a rich user interface and runs inside a web browser.  This type of application supports business logic on the client side which allows a responsive exchange of information between the client and server part of the system.  This advantage is especially useful in achieving QA-4, where data is required to be updated/retrieved quickly.  Constraint 5 is also satisfied with the Rich Internet Application, as it allows the system to be accessed through the user's choice of web browser.|
-||<p>**Discarded alternatives:**</p><p></p>|
-
-|**Alternative**|**Reason for discarding** |
-| :- | :- |
-|Web Application|While the design does include a very mobile and web based option, it does have limitations for what it can accomplish. This design concept was ultimately discarded due to the difficulty of implementing a rich user interface.|
-|Rich Client Application|This architecture is designed to be highly responsive by running on the users’ machines. The design was discarded as the desired system requires high network connectivity and does not want to heavily use the user’s machine resources.|
-|Mobile Applications|This architecture is focused toward the development of applications that are to be deployed on mobile devices. This alternative was discarded because mobile devices were not considered for accessing this system.|
-
-|||
-| :- | :- |
-|<p>Physically structure</p><p>the application</p><p>using the **three-tier**</p><p>**deployment** **pattern**</p>|Since the system will be accessed from a web browser (CON-5) and the theatre's existing database must also be used (CON-4), a three tier deployment is appropriate.  Includes the presentation tier, application tier, and data tier. |
-|Build the user interface of the client using HTML and other **web technologies** |<p>The standard for building web applications ensures proper compatibility ( CON-5) and it is what the developers are already familiar with (CRN-2).</p><p>Discarded Alternatives: Java servlets were considered , but the developers understanding of the technologies was not sufficient enough. </p>|
-
+![Step 4](assets/step4.png)
 
 
 ## **Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
