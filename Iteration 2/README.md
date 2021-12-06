@@ -39,7 +39,6 @@ The elements that will be refined in this iteration are the modules located in t
 
 
 |**Design Decisions and Location**|**Rationale** |
-| :- | :- |
 |Creating the initial domain model|An initial domain model is created as the base for the system, allowing straightforward identification and modelling for the primary use cases. |
 |Map the system use cases to domain objects|The domain objects are identified and are found in the use cases from the use case model in deliverable 2 |
 |Decomposition of domain objects|This technique helps allocate work to the team through identifying modules that support the project's functionalities.|
