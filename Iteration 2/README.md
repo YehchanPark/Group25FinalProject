@@ -47,16 +47,16 @@ The elements that will be refined in this iteration are the modules located in t
 
 **Step 6: Sketch Views and Record Design Decisions**
 
-Initial Domain Model:
+Initial Domain Model:  
+
+![domain](assets/domain.png)
 
 
 
 
 
-
-
-Module that support the primary use cases:
-![image](https://user-images.githubusercontent.com/80484349/144771384-a6b5e98a-5562-49b4-8dfc-ae8a7ab3263d.png)
+Module that support the primary use cases:  
+![module](assets/module.png)
 
 
 
