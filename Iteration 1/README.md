@@ -150,15 +150,15 @@ The relationship between elements:
 ||CON-2||Took into account the following elements, mindful while deciding project drivers. |
 ||CON-4|||
 |UC-2|||No relevant decisions made, elements did not fit this iterations scenario. |
-|UC-3||||
-|UC-5||||
-|UC-8||||
-|QA-2||||
-|QA-3||||
-|QA-5||||
-|QA-6||||
-|QA-9||||
-|CON-1||||
-|CON-3||||
-|CON-6||||
+|UC-3|||No relevant decisions made, elements did not fit this iterations scenario. |
+|UC-5|||No relevant decisions made, elements did not fit this iterations scenario. |
+|UC-8|||No relevant decisions made, elements did not fit this iterations scenario. |
+|QA-2|||No relevant decisions made, elements did not fit this iterations scenario. |
+|QA-3|||No relevant decisions made, elements did not fit this iterations scenario. |
+|QA-5|||No relevant decisions made, elements did not fit this iterations scenario. |
+|QA-6|||No relevant decisions made, elements did not fit this iterations scenario. |
+|QA-9|||No relevant decisions made, elements did not fit this iterations scenario. |
+|CON-1|||No relevant decisions made, elements did not fit this iterations scenario. |
+|CON-3|||No relevant decisions made, elements did not fit this iterations scenario. |
+|CON-6|||No relevant decisions made, elements did not fit this iterations scenario. |
 
