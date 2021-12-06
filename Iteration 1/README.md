@@ -59,6 +59,8 @@ CON-5: The system must be accessed through a web browser such as Chrome or Firef
 CRN-2: Leverage the team's knowledge about Web technologies, including HTML, CSS, Javascript, PHP, SQL and AJAX . 
 
 Context Diagram for the theatre reservation system:
+![Context Diagram](/assets/context%20diagram.PNG)
+
 
 **Step 3: Choose One or More Elements of the System to Refine**
 
