@@ -35,8 +35,6 @@ To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pd
 |CRN-2|Leverage the team's knowledge about Web Programming, including HTML, CSS, Javascript, PHP, SQL and AJAX . |
 |CRN-3|Allocate work to members of the development team.|
 
-|||
-| :- | :- |
 
 **Step 2: Establish Iteration Goal by Selecting Drivers**
 
