@@ -3,7 +3,7 @@ This iteration showcases the results of the activites that are performed for the
 
 To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pdf)
 
-**ADD Step 1: Review inputs**
+## **ADD Step 1: Review inputs**
 
 
 |**Category**|**Details**|
@@ -36,7 +36,7 @@ To access to full pdf click [here](Iteration%201%20Final%20Project%20SOFE3650.pd
 |CRN-3|Allocate work to members of the development team.|
 
 
-**Step 2: Establish Iteration Goal by Selecting Drivers**
+## **Step 2: Establish Iteration Goal by Selecting Drivers**
 
 This is the first iteration in the design of a greenfield system, so the iteration goal
 is to achieve the first architectural concern of establishing an overall system structure .
@@ -62,11 +62,11 @@ Context Diagram for the theatre reservation system:
 ![Context Diagram](assets/context%20diagram.PNG)
 
 
-**Step 3: Choose One or More Elements of the System to Refine**
+## **Step 3: Choose One or More Elements of the System to Refine**
 
 Our system is a greenfield system, so the element to refine is the entire theatre reservation system, which is shown in the diagram above. Refinement is performed through decomposition.
 
-**Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
+## **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
 |**Design decisions and Location**|**Rationale**|
 | :- | :- |
@@ -86,7 +86,7 @@ Our system is a greenfield system, so the element to refine is the entire theatr
 
 
 
-**Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
+## **Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 
 In the initial iteration, interfaces are not yet defined. 
 
@@ -95,7 +95,7 @@ In the initial iteration, interfaces are not yet defined.
 |Remove local data sources in the Rich Internet Application|No need to store data locally as information will be stored in the Theatre Database.|
 
 
-**Step 6: Sketch Views and Record Design Decisions**  
+## **Step 6: Sketch Views and Record Design Decisions**  
 ![view](assets/sketch.PNG)  
 The following table summarizes the information that is captured by the sketch : 
 |**Element**|**Responsibility**|
@@ -131,7 +131,7 @@ The relationship between elements:
 | :- | :- |
 |Between application and database server|Communication with the database will be done using PHP.|
 
-**Step 7: Perform Analysis of Current Design and Review Iteration**
+## **Step 7: Perform Analysis of Current Design and Review Iteration**
 
 
 |**Not Addressed**|**Partially Addressed**|**Completely Addressed**|**Design Decisions** |
