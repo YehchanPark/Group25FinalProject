@@ -4,7 +4,7 @@ This iteration showcases the results of the activites that are performed for the
 To access to full pdf click [here](Iteration%202%20Final%20Project%20SOFE3650.pdf)
 
 
-## **Step 2: Establish Iteration Goal by Selecting Drivers**
+**Step 2: Establish Iteration Goal by Selecting Drivers**
 
 The goal during this iteration is to address the architectural concern of identifying structures to support primary functionality. This is not only useful for understanding how functionality is supported, but also for addressing CRN-3 (Allocate work to members of the development team.)
 
@@ -14,13 +14,13 @@ In this iteration the architecture considers:
 - UC-4: Create Reservations
 - UC-6: Show Information
 - UC-7: Admin Access
-- CRN-3: Allocate work to members
+- CRN-3: 
 
-## **Step 3: Choose One or More Elements of the System to Refine**
+**Step 3: Choose One or More Elements of the System to Refine**
 
 The elements that will be refined in this iteration are the modules located in the layers defined by the two reference architectures from the first iteration. In general, the support of functionality in this system requires the collaboration of components associated with modules that are located in the different layers.  This includes the elements browser layer, business layer, and data layer.
 
-## **Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
+**Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers**
 
 
 |**Design Decisions and Location**|**Rationale and Assumptions**|
@@ -33,7 +33,7 @@ The elements that will be refined in this iteration are the modules located in t
 
 
 
-## **Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
+**Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 
 
 |**Design Decisions and Location**|**Rationale** |
@@ -44,7 +44,7 @@ The elements that will be refined in this iteration are the modules located in t
 |Connect components using JQuery Framework|JQuery simplifies the relationship between Javascript code and HTML elements, supporting various component aspects with a wide range of plugins. |
 
 
-## **Step 6: Sketch Views and Record Design Decisions**
+**Step 6: Sketch Views and Record Design Decisions**
 
 Initial Domain Model:  
 
@@ -80,7 +80,7 @@ Initial methods for the interfaces of the interacting elements can be identified
 ![Interface Element Chart](assets/InterfaceElements)
 
 
-## **Step 7: Perform Analysis of Current Design and Review Iteration**
+**Step 7: Perform Analysis of Current Design and Review Iteration**
 
 
 |**Not Addressed**|**Partially Addressed**|**Completely Addressed**|**Design Decisions** |
