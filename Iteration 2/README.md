@@ -10,11 +10,11 @@ The goal during this iteration is to address the architectural concern of identi
 
 In this iteration the architecture considers:
 
-- UC-1: Login System
-- UC-4: Create Reservations
-- UC-6: Show Information
-- UC-7: Admin Access
-- CRN-3: Allocate work to members
+- [UC-1: Login System](/assets/useCases.JPG)  
+- [UC-4: Create Reservations](/assets/useCases.JPG)  
+- [UC-6: Show Information](/assets/useCases.JPG)  
+- [UC-7: Admin Access](/assets/useCases.JPG)  
+- [CRN-3: Allocate work to members](/assets/crn.JPG)  
 
 ## **Step 3: Choose One or More Elements of the System to Refine**
 
